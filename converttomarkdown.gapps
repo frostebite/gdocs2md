@@ -274,7 +274,7 @@ function processTextElement(inSrc, txt) {
       }
     }
     if (txt.isBold(off)) {
-      var d1 = d2 = "**";
+      var d1 = d2 = "__";
       if (txt.isItalic(off)) {
         // edbacher: changed this to handle bold italic properly.
         d1 = "**_"; d2 = "_**";
